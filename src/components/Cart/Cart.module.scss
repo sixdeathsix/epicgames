@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+
+.Cart {
+  display: flex;
+
+  &__count {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+}

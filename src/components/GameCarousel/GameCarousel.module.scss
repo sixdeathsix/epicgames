@@ -1,0 +1,51 @@
+@import '../../variables.scss';
+
+.Carousel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+
+  &__title {
+    display: flex;
+  }
+
+  &__buttons {
+    display: flex;
+  }
+
+  &__buttons > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    background: rgb(48, 48, 48);
+    cursor: pointer;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__inner__wrapper {
+    display: block;
+  }
+
+  &__pev {
+    display: flex;
+  }
+}

@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{ 
+  background-color: rgb(18, 18, 18);
+}
+
+body, h1, h2, h3, h4, h5, p, a, input{
+  color: $textcolor;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  object-fit: cover;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.App{
+  max-width: 1440px;
+  margin: 0 auto;
+}

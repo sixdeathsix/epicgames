@@ -1,0 +1,31 @@
+@import '../../variables.scss';
+
+.Header {
+  height: 100px;
+  top: 0;
+  position: sticky;
+  z-index: 1001;
+  background-color: rgb(18, 18, 18);
+
+  .wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav{
+    display: flex;
+    height: 40px;
+    align-items: center;
+  }
+
+  &__link {
+    margin-left: 20px;
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+      transition: 125ms ease-in-out;
+    }
+  }
+}
